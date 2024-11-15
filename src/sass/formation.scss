@@ -1,0 +1,50 @@
+.formation {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 150px 0;
+    h2 {
+      font-family: Montserrat;
+      font-size: 36px;
+      color: #000000;
+      margin: 0;
+  
+    }
+    p{
+      font-family: Montserrat;
+      font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+  .formation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 150px 0;
+    h2 {
+      font-size: 28px;
+      margin: 0;
+    }
+    p{
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .formation {
+    margin: 100px 0 150px 0;
+    h2 {
+      font-size: 28px;
+    }
+    p{
+      font-size: 16px;
+
+    }
+  }
+}

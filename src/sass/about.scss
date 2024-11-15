@@ -1,0 +1,48 @@
+.about {
+  margin: 2vw 6vw;
+  .langage-section {
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .about{
+    margin: 4% 25px;
+    .banner{
+      height: 111px;
+      margin: 0;
+      border-radius: 15px;
+      img{
+        border-radius: 15px;
+      }
+    }
+    .about-section{
+      margin: 0;
+      width: 100%;
+      .accordion-container{
+          .panel p {
+            font-size: 13px;
+            line-height: 20px;
+            padding: 15px 20px;
+          }
+        .accordion{
+          height: 30px;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 18.54px;
+          text-align: left;
+          margin-top: 20px;
+          
+          i{
+            font-size: 20px;
+          }        
+        }
+      }
+    }
+  }
+}
