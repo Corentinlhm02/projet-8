@@ -5,8 +5,8 @@ function Footer() {
   return (
     <footer>
       <h3>Me contacter</h3>
-        <p>Tel : 06-60-76-37-40</p>
-        <p>Email: lhommecoerntin62@gmail.com</p>
+        <p>Email: lhommecorentin62@gmail.com</p>
+        <a href="https://www.linkedin.com/in/corentin-lhomme-59ab17273/"><p> linkedin: Mon profil</p></a>
     </footer>
   );
 }
