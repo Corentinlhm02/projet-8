@@ -5,7 +5,7 @@ const Button = () => {
 
     return (
         <div className='buttonCV'>
-            <a href={cvUrl} target="_blank" rel="noopener noreferrer" download>
+            <a href={cvUrl} download>
                 <button>Télécharger mon CV</button>
             </a>
         </div>
