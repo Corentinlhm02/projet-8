@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = () => {
     
-    const cvUrl = '/public/CV.pdf';
+    const cvUrl = '/src/assets/CV.pdf';
 
     return (
         <div className='buttonCV'>
