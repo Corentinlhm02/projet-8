@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Button = () => {
-    
-    const cvUrl = '/src/assets/CV.pdf';
+    const cvUrl = '/CV.pdf';
 
     return (
         <div className='buttonCV'>
@@ -13,6 +12,5 @@ const Button = () => {
     );
 };
 
-
-
 export default Button;
+
